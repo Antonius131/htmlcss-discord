@@ -22,8 +22,11 @@ body {
 }
 
 img {
-    display: block;
     width: 100%;
+}
+
+ul {
+    list-style: none;
 }
 
 h2 {
@@ -88,7 +91,6 @@ header {
 .nav-col ul{
     display: flex;
     justify-content: center;
-    list-style: none;
     text-align: center;
 }
 
@@ -198,41 +200,93 @@ header {
 
 
 
-/* dark grey section */
-
-.dark-pink-col {
-    flex-grow: 1;
-    background-color: #F08080;
-}
-
-.light-green-col {
-    display: flex;
-    flex-grow: 3;
-    background-color: #40B2AA;
-}
-
-.light-green-col .col {
-    width: 25%;
-}
-
 
 
 /* footer style */
 
 footer {
     background-color: #23272A;
-    padding: 30px;
-    border-top: 1px solid #BEBEBE;
+    color: #fff;
 }
 
-.footer-row {
+/* social col style */
+
+.socials-col {
+    width: 25%;
+}
+
+footer h4 {
+    font-size: 24px;
+    color: #738ADB;
+    margin-bottom: 16px;
+}
+
+.socials-col img {
+    height: 14px;
+    width: auto;
+    margin-right: 4px;
+}
+
+.socials-col span {
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 12px;
+}
+
+.social-icons a {
+    color: #fff;
+}
+
+.social-icons span {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+/* footer links style */
+
+.footer-links-col {
+    display: flex;
+    width: 75%;
+}
+
+.footer-links-col .col {
+    width: 25%;
+}
+
+.col h5 {
+    color: #738ADB;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.col ul li {
+    font-size: 16px;
+    display: block;
+    padding: 8px 0px;
+}
+
+/* bottom footer */
+
+.bottom-footer-row {
     display: flex;
     justify-content: space-between;
-    background-color: #7FFFD4;
+    border-top: 1px solid #738ADB;
     padding: 10px 0px;
 }
 
-.footer-row div {
-    padding: 10px;
-    background-color: #F9C0CB;
+.bottom-footer-row div {
+    padding: 12px 0px;
+}
+
+.footer-logo-col img {
+    height: 21px;
+}
+
+.sign-in-button-col a {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #738ADB;
 }
