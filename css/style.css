@@ -8,12 +8,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: rgb(0, 11, 49);
 }
 
 .row {
     display: flex;
-    padding: 30px 0px;
-    height: 400px;
+    padding: 80px 0px;
 }
 
 .container {
@@ -21,8 +21,26 @@ body {
     margin: 0 auto;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 39px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
 a {
     text-decoration: none;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 .btn {
@@ -138,48 +156,44 @@ header {
 
 
 
-
-
-.dark-grey-bg-section {
-    background-color: #23272A;
-}
-
-.grey-bg-section {
-    background-color: #D3D3D3;
-}
-
-.pink-bg {
-    background-color: #EE81EE;
-    max-width: 60%;
-    margin: 0 auto;
-    height: 300px;
-    border-radius: 5px;
-}
-
-
-/* columns style */
+/* main style */
 
 .main-col {
-    flex-grow: 2;
-    background-color: #4590FF;
+    width: 60%;
 }
 
 .minor-col {
-    flex-grow: 1;
-    background-color: #F9C0CB;
+    width: 40%;
+    padding: 30px 15px;
 }
 
 .reverse-content {
     flex-direction: row-reverse;
 }
 
-.green-bg-content {
-    padding: 30px 0px;
+.light-bg-section {
+    background-color: #F6F6F6;
 }
 
-.green-main-col {
-    background-color: #298B22;
-    height: 500px;
+/* download section */
+
+.download-section {
+    padding: 80px;
+    text-align: center;
+}
+
+.download-title {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position-y: 1%;
+    width: 50%;
+    margin: 42px auto;
+    padding: 30px 15px 0px 15px;
+}
+
+.lb-btn {
+    background-color: #7289DA;
+    color: #fff;
 }
 
 
